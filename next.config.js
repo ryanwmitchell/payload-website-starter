@@ -1,4 +1,4 @@
-import { withPayload } from '@payloadcms/next/withPayload'
+import { withPayload } from '../payload/packages/next/src/withPayload.js'
 
 import redirects from './redirects.js'
 
