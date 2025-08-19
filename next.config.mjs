@@ -1,6 +1,6 @@
 import bundleAnalyzer from '@next/bundle-analyzer'
 import { withSentryConfig } from '@sentry/nextjs'
-import { withPayload } from '@payloadcms/next/withPayload'
+import { withPayload } from '../payload/packages/next/src/withPayload.js'
 import path from 'path'
 import { fileURLToPath } from 'url'
 
